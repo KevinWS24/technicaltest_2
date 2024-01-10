@@ -1,9 +1,8 @@
 package com.kevinws.techincaltest2;
 
-// Student.java
 public class Student {
     private String name;
-    private int profilePictureResId; // Resource ID for profile picture
+    private int profilePictureResId;
     private String address;
 
     public Student(String name, int profilePictureResId, String address) {
@@ -11,6 +10,4 @@ public class Student {
         this.profilePictureResId = profilePictureResId;
         this.address = address;
     }
-
-    // Getter methods here
 }

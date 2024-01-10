@@ -1,7 +1,5 @@
 package com.kevinws.techincaltest2;
 
-// StudentListActivity.java
-
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -28,8 +26,6 @@ public class StudentListActivity extends AppCompatActivity {
         studentList.add(new Student("Fanny", R.drawable.profile, "Jl. Berlubang"));
         studentList.add(new Student("Livina", R.drawable.profile, "Jl. Sempit"));
 
-
-        // Display data in ListView (you need to create a ListView in your XML layout)
         ListView listView = findViewById(R.id.listView);
         ArrayAdapter<Student> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, studentList);
         listView.setAdapter(adapter);
